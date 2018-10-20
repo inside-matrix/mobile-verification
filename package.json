@@ -1,0 +1,24 @@
+{
+	"name": "mobile-verification",
+	"version": "1.0.0",
+	"description": "Mobile Verification module which takes mobile number and triggers OTP based verification process. Designed to be lightweight and load quickly.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc & lessc lib/*.less dist/index.css"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inside-matrix/mobile-verification.git"
+	},
+	"keywords": [],
+	"author": "Inside Matrix <iinsidematrix@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/inside-matrix/mobile-verification/issues"
+	},
+	"homepage": "https://github.com/inside-matrix/mobile-verification#readme",
+	"devDependencies": {
+		"typescript": "^3.1.3"
+	}
+}

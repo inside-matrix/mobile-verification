@@ -1,0 +1,11 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"jsx": "preserve",
+		"outDir": "./dist",
+		"declaration": true,
+		"lib": ["dom", "es5", "scripthost", "es2015.promise", "es2015.core"]
+	},
+	"exclude": ["dist", "node_modules", "**/node_modules/*", "**/__tests__/*"]
+}
