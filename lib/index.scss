@@ -15,13 +15,13 @@ html {
 }
 
 body {
-	background-color: whitesmoke;
+	background-color: azure;
 	margin: 1.5rem;
 
 	&.mobile-verification {
 		.title {
 			color: white;
-			padding: 1rem 1rem 1rem;
+			padding: 0.75rem 1.5rem 0.5rem;
 			margin: -1.5em -1.5em 1.5rem;
 			background-color: mdc-theme-prop-value(primary);
 			box-shadow: 0px 2px 2px grey;
@@ -59,27 +59,33 @@ body {
 			display: none;
 		}
 
-		// .status-msg {
-		// 	position: absolute;
-		// 	bottom: 4rem;
-		// 	left: 1.5rem;
+		.footer-container {
+			text-align: center;
+			font-size: 0.9rem;
+			background-color: mdc-theme-prop-value(primary);
+			color: white;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 0.3rem 0;
+			box-shadow: 0px -2px 2px grey;
 
-		// 	display: none;
-		// 	color: mdc-theme-prop-value(on-secondary);
+			.firstline {
+				border-bottom: 1px solid white;
+				width: 95%;
+				margin: 0 auto;
+				padding-bottom: 0.4rem;
+			}
 
-		// 	&.error {
-		// 		display: block;
-		// 		color: crimson;
-		// 	}
+			.secondline {
+				padding-top: 0.3rem;
+			}
+		}
 
-		// 	&.success {
-		// 		display: block;
-		// 		color: darkcyan;
-		// 	}
-
-		// 	&.info {
-		// 		display: block;
-		// 	}
-		// }
+		.toc-message {
+			color: mdc-theme-prop-value(on-secondary);
+			margin-top: 1.5rem;
+		}
 	}
 }
